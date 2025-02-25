@@ -25,3 +25,5 @@ distclean: clean
 	$(RM) ../$(LSHORT).pdf
 
 .PHONY: all install clean distclean FORCE_MAKE
+make
+make install
